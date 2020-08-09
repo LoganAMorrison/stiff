@@ -36,3 +36,5 @@ bin
 cmake-build-debug
 cmake-build-release
 compile_commands.json
+.clangd
+.idea
