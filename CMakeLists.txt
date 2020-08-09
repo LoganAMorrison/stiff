@@ -79,7 +79,8 @@ endif ()
 #============================================================================
 
 set(TEST_FILES
-	"test_decsol")
+		"test_decsol"
+		"test_radau")
 
 foreach(tfile ${TEST_FILES})
 	add_executable(${tfile} "test/${tfile}.cpp")
