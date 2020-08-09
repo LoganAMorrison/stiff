@@ -30,3 +30,9 @@
 *.exe
 *.out
 *.app
+
+# Ignore build tools
+bin
+cmake-build-debug
+cmake-build-release
+compile_commands.json
